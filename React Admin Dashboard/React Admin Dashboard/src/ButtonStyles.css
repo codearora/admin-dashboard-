@@ -1,0 +1,40 @@
+/* ButtonStyles.css */
+.custom-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px 0; /* Added top and bottom margins */
+  }
+  
+  .custom-button:hover {
+    background-color: #555;
+  }
+  
+
+  
+  
+  .logout-container {
+    position: absolute;
+  top: 20px; /* Adjust top position */
+  right: 20px; /* Adjust right position */
+  }
+  
+  .logout-button {
+    padding: 15px 30px; /* Adjust padding for a larger button */
+  font-size: 18px; /* Adjust font size */
+    border: none;
+    border-radius: 5px;
+    background-color: #e53935; /* Red color, you can change it */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c62828; /* Darker red color on hover */
+  }

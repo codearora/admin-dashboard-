@@ -1,0 +1,16 @@
+/* UserData.css */
+/* ... existing styles ... */
+
+/* Style for the additional row */
+.table-container tr:nth-child(odd) {
+    background-color: #e3f2fd;
+  }
+  
+  .table-container tr:last-child {
+    background-color: #ffcc80; /* Custom color for the last row */
+  }
+  
+  .table-container tr:last-child:hover {
+    background-color: #ffb74d; /* Hover effect for the last row */
+  }
+  
